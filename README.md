@@ -1,4 +1,4 @@
-# KIKK 2022 Creative AI Workshop
+# KIKK 2023 Creative AI Workshop
 
 ![Banner](.github/kikk-creative-ai-banner.png)
 
@@ -35,10 +35,10 @@ Save all output files as `.jpg` files in a directory; then create a ZIP file of 
 
 The `pix2pix_training/pix2pix_train_colab.ipynb` script is set up to run in [Google Colab](https://colab.research.google.com/):
 
-**[Open training notebook in Google Colab](https://colab.research.google.com/github/algorithmicgaze/2022-kikk-workshop/blob/main/pix2pix_training/pix2pix_train_colab.ipynb)**
+**[Open training notebook in Google Colab](https://colab.research.google.com/github/algorithmicgaze/2023-kikk-workshop/blob/main/pix2pix_training/pix2pix_train_colab.ipynb)**
 
 1. Go to [Google Colab](https://colab.research.google.com/)
-2. Choose the GitHub tab and type `https://github.com/algorithmicgaze/2022-kikk-workshop`
+2. Choose the GitHub tab and type `https://github.com/algorithmicgaze/2023-kikk-workshop`
 3. Choose the pix2pix_train_colab.ipynb script.
 4. Run the first cell. You'll get a warning that the notebook was not authored by Google. Click "Run Anyway".
 5. Open the "Files" sidebar (click the icon on the left) and drag your ZIP file in the panel.
