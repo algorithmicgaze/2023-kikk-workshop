@@ -51,7 +51,7 @@ If you have [Colab Pro](https://colab.research.google.com/signup/pricing), the s
 
 To run the model in realtime in Figment, you'll need to convert it to TensorFlow.js. You can use the following script to do that:
 
-**[Open conversion notebook in Google Colab](https://colab.research.google.com/github/algorithmicgaze/2022-kikk-workshop/blob/main/pix2pix_training/pix2pix_convert_to_tfjs.ipynb)**
+**[Open conversion notebook in Google Colab](https://colab.research.google.com/github/algorithmicgaze/2023-kikk-workshop/blob/main/pix2pix_training/pix2pix_convert_to_tfjs.ipynb)**
 
 1. Upload the generator.zip file you downloaded from the last step, or connect the notebook to Google Drive.
 2. Run all cells to do the conversion.
@@ -118,5 +118,5 @@ Results will be in `results/PROJECT/test_latest/images`. Convert to video:
 
 ```
 cd results/PROJECT/test_latest/
-ffmpeg -i images/%06d_synthesized_image.jpg -pix_fmt yuv420p -r 30 2022-09-11-faces-control-fdb-1.mp4
+ffmpeg -i images/%06d_synthesized_image.jpg -pix_fmt yuv420p -r 30 2023-10-28-faces-control-fdb-1.mp4
 ```
